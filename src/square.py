@@ -6,6 +6,9 @@ class Square:
             self.side = 1
         else:
             self.side = side
+
+    def area(self): 
+        return self.side * self.side 
     
     # FIXME
     def perimeter(self): 
